@@ -6,12 +6,13 @@ def create_olympics_hash
   summer_olympics["Athens"] = 2004
   summer_olympics["Beijing"] = 2008
   summer_olympics["London"] = 2012
-  return summer_olympics
+  puts summer_olympics
 end
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
   summer_olympics["Atlanta"] = 1996
+  puts summer_olympics
 end
 
 def iterate_through_hash
@@ -27,3 +28,7 @@ def iterate_through_keys
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
   #summer_olympics.each do |upcased_cities|
 end
+
+create_olympics_hash
+add_a_key_value_pair
+iterate_through_keys
