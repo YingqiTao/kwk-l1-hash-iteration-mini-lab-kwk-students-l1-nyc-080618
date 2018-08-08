@@ -11,8 +11,8 @@ end
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
+  create_olympics_hash
   summer_olympics["Atlanta"] = 1996
-
   puts summer_olympics
 end
 
@@ -30,6 +30,6 @@ def iterate_through_keys
   #summer_olympics.each do |upcased_cities|
 end
 
-puts create_olympics_hash
-# add_a_key_value_pair
+#puts create_olympics_hash
+add_a_key_value_pair
 # iterate_through_keys
