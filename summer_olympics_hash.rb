@@ -36,3 +36,4 @@ end
 #puts create_olympics_hash
 #add_a_key_value_pair
 #iterate_through_hash
+iterate_through_keys
