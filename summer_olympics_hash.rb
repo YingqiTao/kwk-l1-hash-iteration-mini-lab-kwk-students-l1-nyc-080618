@@ -2,17 +2,17 @@
 def create_olympics_hash
   # Implement this method so that it returns a hash with the data provided
   summer_olympics = {}
-  summer_olympics[:Sydney] = 2000.to_str
-  summer_olympics[:Athens] = 2004.to_str
-  summer_olympics[:Beijing] = 2008.to_str
-  summer_olympics[:London] = 2012.to_str
+  summer_olympics[:Sydney] = 2000.to_s
+  summer_olympics[:Athens] = 2004.to_s
+  summer_olympics[:Beijing] = 2008.to_s
+  summer_olympics[:London] = 2012.to_s
   return summer_olympics
 end
 
 def add_a_key_value_pair
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
   summer_olympics = create_olympics_hash
-  summer_olympics[:Atlanta] = 1996.to_str
+  summer_olympics[:Atlanta] = 1996.to_s
   return summer_olympics
 end
 
