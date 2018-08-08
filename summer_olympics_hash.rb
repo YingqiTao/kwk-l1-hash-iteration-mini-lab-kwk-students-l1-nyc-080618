@@ -22,7 +22,7 @@ def iterate_through_hash
   
   summer_olympics = add_a_key_value_pair
   summer_olympics.each do |city, year|
-    return "The #{city} summer olympics took place in #{year}."
+    puts "The #{city} summer olympics took place in #{year}."
   end
 end
 
